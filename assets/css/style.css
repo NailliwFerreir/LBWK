@@ -25,8 +25,7 @@
     align-items: center;
     flex-wrap: wrap;
 }
-body {
-}
+
 header {
     background-color: #000;
 }
@@ -85,7 +84,7 @@ main .container {}
     text-align: center;
     font-size: 26px;
     text-transform: uppercase;
-    text-shadow: 0px 0px 3px #EEE ;
+    text-shadow: 0px 0px 3px #DDD ;
     padding: 10px 0px;
 
 }
@@ -110,6 +109,7 @@ main .container {}
     max-width: 300px;
 }
 .project h2 {
+    
     font-size: 20px;
     color: #000;
 }
@@ -117,6 +117,38 @@ main .container {}
     max-width: 300px;
     color: #888;
 }
+
+
+
+#history {
+    padding: 2px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#history .section-top h1 {
+    color: #FFF;    
+}
+#history img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#history .container {
+    position: absolute;
+}
+#history h2 {
+    margin: 30px 0px;
+    font-size: 35px;
+    color: #999;
+}
+#history p {
+    font-size: 25px;
+    padding: 20px 0px;
+    color: #EEE;
+}
+
 
 
 
@@ -145,7 +177,6 @@ footer .follow-lbwk img.logo {
     width: 200px;
 }
 footer .follow-lbwk p {
-    font-family: 'Bangers', cursive;
     font-size: 13px;
     color: #AAA;
     padding: 10px 0px;
@@ -188,4 +219,36 @@ footer .report address {
 footer .copy {
     text-align: center;
     color: #AAA;
+}
+
+
+
+
+
+
+@media (max-width: 760px) {
+    #history h2 {
+        margin: 15px 0px;
+        font-size: 30px;
+        color: #999;
+        text-align: center;
+
+    }
+    #history p {
+        font-size: 20px;
+        padding: 10px 0px;
+        color: #EEE;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #history .history {
+        height: calc(100vh - 40px);
+        display: flex;
+        flex-direction: column;
+    }
+    footer .copy {
+        font-size: 8px;
+    }
 }
