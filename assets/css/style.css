@@ -137,6 +137,7 @@ main .container {}
     height: auto;
     margin-top: 80px;
     color: #EEE;
+    text-shadow: 0px 0px 10px #000;
 }
 #Home .painel-words .lbwk{
     text-align: center;
@@ -228,17 +229,67 @@ main .container {}
 }
 
 
-#gallery {}
+#gallery .container {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "item-1 item-1 item-2"
+    "item-1 item-1 item-2"
+    "item-3 item-4 item-4"
+    "item-3 item-4 item-4"
+    "item-5 item-5 item-6"
+    "item-5 item-5 item-6"
+    "item-7 item-8 item-8"
+    "item-7 item-8 item-8"
+    "item-9 item-9 item-10"
+    "item-9 item-9 item-10"
+    ;
+}
 
+#gallery {
+    background-color: #000;
+}
 
 #gallery .section-top {
     color: #FFF;
     background-color: #000;
 }
+#gallery .gallery-item.item-1 {
+    grid-area: item-1;
+}
+#gallery .gallery-item.item-2 {
+    grid-area: item-2;
+}
+#gallery .gallery-item.item-3 {
+    grid-area: item-3;
+}
+#gallery .gallery-item.item-4 {
+    grid-area: item-4;
+}
+#gallery .gallery-item.item-5 {
+    grid-area: item-5;
+}
+#gallery .gallery-item.item-6 {
+    grid-area: item-6;
+}
+#gallery .gallery-item.item-7 {
+    grid-area: item-7;
+}
+#gallery .gallery-item.item-8 {
+    grid-area: item-8;
+}
 
+#gallery .gallery-item.item-9 {
+    grid-area: item-9;
+}
 
-
-
+#gallery .gallery-item.item-10 {
+    grid-area: item-10;
+}
+#gallery .gallery-item img {
+    width: 100%;
+    height: auto;
+}
 
 
 
