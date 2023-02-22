@@ -227,6 +227,12 @@ footer .copy {
 
 
 @media (max-width: 760px) {
+    .project {
+        padding: 20px 0px;
+    }
+    .project img ,.project p{
+        max-width: none;
+    }
     #history h2 {
         margin: 15px 0px;
         font-size: 30px;
