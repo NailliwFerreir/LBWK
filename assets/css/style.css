@@ -92,7 +92,7 @@ header .menu img {
 /*main {
 }
 main .container {}
-.section-top {}*/
+*/
 
 .section-top h1 {
     text-align: center;
@@ -100,7 +100,12 @@ main .container {}
     text-transform: uppercase;
     text-shadow: 0px 0px 3px #DDD ;
     padding: 10px 0px;
-
+}
+.section-top p {
+    font-size: 20px;
+    color: #000;
+    border-top: 4px solid #555;
+    padding: 30px 0px;
 }
 
 #Home {
