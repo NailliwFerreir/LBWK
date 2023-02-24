@@ -1,3 +1,4 @@
+/* Menu bar icon */
 const navMenu = document.querySelector('header nav ul');
 const botaoMenu = document.querySelector('.menu').addEventListener('click',() => {
     if(navMenu.style.display == "flex") {
@@ -6,3 +7,6 @@ const botaoMenu = document.querySelector('.menu').addEventListener('click',() =>
         navMenu.style.display = "flex";
     }
 });
+/* Animation */
+
+/* */
