@@ -154,8 +154,8 @@ main .container {}
     margin-top: 80px;
     color: #EEE;
     text-shadow: 0px 0px 10px #000;
-    animation: fadeInUp 1.3s;
-    animation-delay: 200ms;
+    /*animation: fadeInUp 1.3s;
+    animation-delay: 200ms;*/
 }
 #Home .painel-words .lbwk{
     text-align: center;
